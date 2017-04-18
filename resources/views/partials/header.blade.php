@@ -9,7 +9,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Brand</a>
+            <a class="navbar-brand" href="/">Mamazon</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
             <li>

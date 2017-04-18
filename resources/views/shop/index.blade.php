@@ -22,7 +22,7 @@
                 <img src="{{$product->imagePath}}" alt="...">
                 <div class="caption">
                     <h3>{{$product->title}}</h3>
-                    <p class="description">{{$product->shortDescription}}</p>
+                    <p class="description">{{str_limit($product->shortDescription, 80)}}</p>
                     <div class="clearfix">
                         <div class="pull-left price">${{$product->price}}</div>
                         <a href="{{ route('product.addToCart', ['id' => $product->id])}}" class="btn btn-success pull-right" role="button">Add to Cart</a>
